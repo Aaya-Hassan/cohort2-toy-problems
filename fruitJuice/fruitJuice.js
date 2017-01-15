@@ -21,7 +21,17 @@ Complete the functions in order to provide this functionality.
 */
 
 function Jar() {
-  // TODO
+	return {
+		getConcentration : function(fruit){
+			
+		},
+		add : function(num,fruit){
+			
+		},
+		getTotalAmount : function(){
+
+		}
+	}
 }
 
 /*
