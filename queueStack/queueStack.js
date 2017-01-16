@@ -46,7 +46,6 @@
 
    // should return the number of items in the queue
    this.size = function(){
-
    }
  }
 
