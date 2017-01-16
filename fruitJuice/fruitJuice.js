@@ -21,6 +21,7 @@ Complete the functions in order to provide this functionality.
 */
 
 function Jar() {
+<<<<<<< HEAD
 	return {
 		getConcentration : function(fruit){
 			
@@ -32,6 +33,9 @@ function Jar() {
 
 		}
 	}
+=======
+  // TODO
+>>>>>>> ae4eb3ea71b7d7dbe78fe9f7d97772c1cd6928d1
 }
 
 /*
