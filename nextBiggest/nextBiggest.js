@@ -19,7 +19,11 @@ rotate([true, true, false], 1) // => [false, true, true]
 
 var data = [1, 2, 3, 4, 5];
 rotate(data, 1) // => [5, 1, 2, 3, 4]
+<<<<<<< HEAD
 rotate(data, 2) // => [4, 5, 1, 2, 3]  
+=======
+rotate(data, 2) // => [4, 5, 1, 2, 3] 5 4 
+>>>>>>> 858d22128908d635f902ddc6a58f47a633bf0238
 rotate(data, 5) // => [1, 2, 3, 4, 5] 
 rotate(data, 0) // => [1, 2, 3, 4, 5]
 rotate(data, -1) // => [2, 3, 4, 5, 1]
@@ -34,6 +38,7 @@ rotate(data, 11)    // => [5, 1, 2, 3, 4]
 rotate(data, 12478) // => [3, 4, 5, 1, 2]
 
 */
+<<<<<<< HEAD
 function rotate(array, steps){ 
 	if(steps > 0){
 		for (var i = 0; i < steps; i++) {
@@ -48,6 +53,11 @@ function rotate(array, steps){
     }
 		return array;
 	}
+=======
+function rotate(array, steps){
+
+}
+>>>>>>> 858d22128908d635f902ddc6a58f47a633bf0238
 
 /*
 Problem 2 (Advanced)
