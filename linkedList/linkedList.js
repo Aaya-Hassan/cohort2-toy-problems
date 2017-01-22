@@ -18,6 +18,7 @@
 
 
 var LinkedList = function(){
+<<<<<<< HEAD
  this.tail=null;
  this.head=null;
 
@@ -47,3 +48,9 @@ LinkedList.prototype.removeHead=function(){
 LinkedList.prototype.contains=function(target){
   
 }
+=======
+  //fill me in!
+};
+
+//write methods here!
+>>>>>>> 42a961f95ede9dc34c2125c99e247e9b7bf32aad
