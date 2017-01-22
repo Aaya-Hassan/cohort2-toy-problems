@@ -27,7 +27,8 @@ ticTacToe(solvedBoard);//should return 1
 function ticTacToe(board){
 	for(var i=0; i<board.length; i++){
 		for(var j=0; j<board[i]; j++){
-			
+
 		}
 	}
 };
+
