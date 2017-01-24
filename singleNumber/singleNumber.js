@@ -13,6 +13,7 @@ Example:
 arr = [2,4,3,6,8,2,3,4,8];
 singleNumber(arr);//should return 6 because it only appear once
 */
+<<<<<<< HEAD
 
 function singleNumber(arr){
 	var result;
@@ -20,6 +21,10 @@ function singleNumber(arr){
 	   
 	}
 	return result;
+=======
+function singleNumber(arr){
+
+>>>>>>> 2f38f3c6500ecabfadd14e698d7085c59476511e
 }
 
 /*
@@ -37,6 +42,7 @@ twoSum(nums,9); //should return [0,1] because nums[0] + nums[1] = 2 + 7 = 9;
 */
 
 function twoSum(nums, target){
+<<<<<<< HEAD
 	var arr=[];
 	for(var i=0; i<nums.length; i++){
 		for(var j=i+1; j<nums.length; j++){
@@ -46,6 +52,9 @@ function twoSum(nums, target){
 		}
 	}
 	return arr;
+=======
+
+>>>>>>> 2f38f3c6500ecabfadd14e698d7085c59476511e
 }
 
 /*
@@ -62,4 +71,7 @@ countAllNumbers(2); //should return 91 because there are 91 numbers that have un
 function countAllNumbers(n){
 
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2f38f3c6500ecabfadd14e698d7085c59476511e
