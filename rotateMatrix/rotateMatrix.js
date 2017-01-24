@@ -37,12 +37,12 @@
  *  - Make your function accept a parameter for the direction of rotation (1 = clockwise, -1 = counterclockwise)
  */
 
-var rotateMatrix =function (matrix) {
-	for(var i = 0; i < matrix.length; i++){
-	  for(var j = 0; j < matrix.length ; j++){
-	  	matrix[i][j]=matrix[j][i];
-	  }
-	} 
-	return matrix
-}
+ var rotateMatrix =function (matrix) {
+ 	for(var i = 0; i < matrix.length; i++){
+ 		for(var j = 0; j < matrix.length ; j++){
+ 			matrix[i][j]=matrix[j][i];
+ 		}
+ 	} 
+ 	return matrix
+ }
 ///////////////////
