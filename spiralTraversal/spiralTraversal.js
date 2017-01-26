@@ -10,6 +10,7 @@
     returns [1, 2, 3, 6, 9, 8, 7, 4, 5]
  */
 
+<<<<<<< HEAD
 
 
 var spiralTraversal = function(matrix){  
@@ -22,3 +23,8 @@ var spiralTraversal = function(matrix){
 //i take thee top part and append it to newArr then
  // i transpose the remaining matrix after the top after that reverse the transpose
  //matrix so that when i take the top i actualy take the bottom half..
+=======
+var spiralTraversal = function(matrix){
+
+};
+>>>>>>> 812640f2ad169de84a70e736efcb0f6864aaf56e
