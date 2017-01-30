@@ -27,12 +27,17 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]) => ["WEST
 dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => [] //don't need to move at all
 */
 
+<<<<<<< HEAD
 
 var dirReduc = function(directions){
   for(var i = 0; i < directions.length; i++){
   	//if i have the same number of south and north, west and east so i don't need to move at all
   	  // else i remove the direction how is more than and return it  	   
   }	
+=======
+var dirReduc = function(directions){
+	
+>>>>>>> d2130e14cb0ab2ec81404accbb5aee359f2349a4
 	return directions;
 };
 
