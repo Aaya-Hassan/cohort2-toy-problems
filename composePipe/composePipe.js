@@ -58,7 +58,3 @@ var compose = function(){
 
 
 var welcome = compose(greet, exclaim);
-
-
-
-
