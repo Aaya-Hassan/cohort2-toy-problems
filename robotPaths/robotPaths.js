@@ -36,6 +36,7 @@ var makeBoard = function(n) {
 //The answer for a board size 5 is 8512 unique paths
 
 var robotPaths = function(myBoard) {
+<<<<<<< HEAD
  //we need count of paths and recursive function to  
   var count=0;
   // find all possible robot paths then 
@@ -48,6 +49,19 @@ var robotPaths = function(myBoard) {
   return count; 
 }
 
+=======
+ 
+}
+
+      
+
+
+
+
+
+
+
+>>>>>>> 551c0ed41d181ca0915bb8fe20dd8ced3bdec13b
 
 
 
