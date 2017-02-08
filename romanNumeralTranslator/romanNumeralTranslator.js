@@ -16,33 +16,33 @@
  * You should return `null` on invalid input.
  */
 
-function translateRomanNumeral (romanNumeral) {
- 
-  var DIGIT_VALUES = {
-    I: 1,
-    V: 5,
-    X: 10,
-    L: 50,
-    C: 100,
-    D: 500,
-    M: 1000
-  };
- 
-  var result = 0;
-  var arr = romanNumeral.split('');
- 
-  for (var i = 0; i < arr.length; i++) {
-    if (DIGIT_VALUES[arr[i]] === undefined) {
-      return 'null';
-    } else {
-      if (DIGIT_VALUES[arr[i]] < DIGIT_VALUES[arr[i + 1]]) {
-        result += DIGIT_VALUES[arr[i + 1]] - DIGIT_VALUES[arr[i]];
-        i++;
-      } else {
-        result += DIGIT_VALUES[arr[i]];
-      }
-    }
-  };
- 
-  return result;
-}
+ function translateRomanNumeral (romanNumeral) {
+ 	
+ 	var DIGIT_VALUES = {
+ 		I: 1,
+ 		V: 5,
+ 		X: 10,
+ 		L: 50,
+ 		C: 100,
+ 		D: 500,
+ 		M: 1000
+ 	};
+ 	
+ 	var result = 0;
+ 	var arr = romanNumeral.split('');
+ 	
+ 	for (var i = 0; i < arr.length; i++) {
+ 		if (DIGIT_VALUES[arr[i]] === undefined) {
+ 			return 'null';
+ 		} else {
+ 			if (DIGIT_VALUES[arr[i]] < DIGIT_VALUES[arr[i + 1]]) {
+ 				result += DIGIT_VALUES[arr[i + 1]] - DIGIT_VALUES[arr[i]];
+ 				i++;
+ 			} else {
+ 				result += DIGIT_VALUES[arr[i]];
+ 			}
+ 		}
+ 	};
+ 	
+ 	return result;
+ }
