@@ -12,6 +12,7 @@ See example usage to understand what arguments are passed to the callback.
 */
 
 Array.prototype.map = function(callback){
+<<<<<<< HEAD
   var result = [];
 	if(typeof callback == 'function'){
 	  for(var i = 0; i < this.length; i++){
@@ -21,6 +22,10 @@ Array.prototype.map = function(callback){
 	return result;
 }
 
+=======
+
+}
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 
 /*
 Example usage:
@@ -46,7 +51,11 @@ Please see example usage to understand what should be passed to the callback.
 */
 
 var asyncSum = function(a,b,callback){
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 };
 
 /*
@@ -71,7 +80,12 @@ asyncSum(10,"B",logNumber);//should print "Error: Incorrect argument(s)" after 1
 Problem 3 (ADVANCED):
 
 What kind of candy do you like?
+<<<<<<< HEAD
 Your answer: Bubly :)
+=======
+Your answer: 
+
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 */
 
 
